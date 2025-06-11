@@ -29,3 +29,7 @@ SELECT
     ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
   ) AS media_acumulada
 FROM "B2W-Reviews01-teste3"
+
+## 📊 Dashboard Superset - Reviews B2W
+
+![Dashboard de reviews B2W](img/b-2-w-reviews-01-dashboard-2025-05-15T16-54-04.394Z.jpg)
