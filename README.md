@@ -20,6 +20,7 @@ A estrutura de containers Docker foi utilizada para levantar o ambiente de visua
 - Análise de tendências de satisfação dos clientes.
 
 ## 📊 Exemplo de cálculo SQL
+```sql
 SELECT
   submission_date,
   product_name,
@@ -28,7 +29,9 @@ SELECT
     ORDER BY submission_date
     ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
   ) AS media_acumulada
-FROM "B2W-Reviews01-teste3"
+FROM "B2W-Reviews01-teste3";
+```
+
 
 ## 📊 Dashboard Superset - Reviews B2W
 
